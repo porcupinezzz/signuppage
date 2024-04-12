@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.leftSideBar,
+.rightSideBar{
+    flex: 1;
+}
+
+.leftSideBar{
+    background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSideBar{
+    background-color: #f0f0f0;
+}
+
+.rightSideBar>div{
+    margin-left: 1vw;
+}
+
+p{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3vh;
+}
+
+@font-face{
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+.title{
+    font-family: "Norse-Bold";
+    font-size: 20vh;
+    color: white;
+}
+
+.logo>img{
+    height: 20vh;
+}
+
+.logoPlusTitle{
+    flex-grow: 1;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+}
+
+.empty1{
+    flex-grow: 0.8;
+}
+
+.empty2{
+    flex-grow: 1.5;
+}
+
+fieldset{
+    background-color: white;
+    border-style: none;
+    margin-bottom: 2vh;
+}
+
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fields>div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+
+input{
+    height: 3vh;
+    font-size: 2vh;
+}
+
+button{
+    background-color: olive;
+    border-radius: 20px;
+    width: 10vw;
+    height: 5vh;
+    font-size: 2vh;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
